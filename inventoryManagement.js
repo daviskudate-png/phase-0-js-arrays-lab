@@ -1,6 +1,6 @@
 let products=["Laptop","Phone","Headphones","Monitor"];
 function logFirstProduct () {
-console.log(products);
+console.log(products[0]);
 }
 function addProduct(productName) {
   products.push(productName);
